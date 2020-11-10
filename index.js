@@ -6,5 +6,9 @@ function testFunc() {
 
 function superbowlWin(stats) {
   const rec = stats.find(k => k.result === "W")
-  return rec.year;
+  if (rec) {
+    return rec.year;
+  } else {
+    undefined
+  }  
 };
