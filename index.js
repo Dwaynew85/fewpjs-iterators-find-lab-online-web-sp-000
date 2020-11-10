@@ -4,7 +4,7 @@ function testFunc() {
   return "hi"
 }
 
-function superbowlWin() {
-  const rec = record.find(k => k.result === "W")
+function superbowlWin(stats) {
+  const rec = stats.find(k => k.result === "W")
   return rec.year;
 };
