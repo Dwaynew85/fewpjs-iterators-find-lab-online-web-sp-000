@@ -10,5 +10,5 @@ function superbowlWin(stats) {
     return rec.year;
   } else {
     undefined
-  }  
+  }
 };
